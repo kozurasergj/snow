@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+li {
+  list-style-type: none; }
+
+input, button {
+  outline: none;
+  border: none; }
+
+a {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  color: #fff; }
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff; }
+
+body,
+html {
+  min-height: 100%; }
+
+.wrapper {
+  margin: 0 auto;
+  min-width: 100%; }
+  .wrapper .header {
+    padding: 30px 120px;
+    width: 100%;
+    min-height: 100vh;
+    background: url(/build/imegs/01.jfif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; }
+    @media screen and (max-width: 768px) {
+      .wrapper .header {
+        padding: 30px 40px; } }
+    .wrapper .header .header__main {
+      flex: 0 1 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 0 240px 0; }
+      .wrapper .header .header__main .header__menu {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between; }
+        .wrapper .header .header__main .header__menu a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px; }
+          .wrapper .header .header__main .header__menu a:first-child {
+            padding-right: 20px; }
+    .wrapper .header .header__content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+      .wrapper .header .header__content h2 {
+        font-weight: 800;
+        font-size: 55px;
+        line-height: 67px;
+        text-align: center;
+        margin: 0 0 30px 0; }
+      .wrapper .header .header__content p {
+        font-size: 21px;
+        line-height: 26px;
+        text-align: center;
+        margin: 0 0 30px 0; }
+        @media screen and (max-width: 768px) {
+          .wrapper .header .header__content p {
+            width: 80%; } }
+      .wrapper .header .header__content .header__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        margin: 0 0 100px 0; }
+        .wrapper .header .header__content .header__buttons button:hover {
+          background-color: #000; }
+        @media screen and (max-width: 768px) {
+          .wrapper .header .header__content .header__buttons {
+            width: 100%; } }
+        @media screen and (max-width: 500px) {
+          .wrapper .header .header__content .header__buttons {
+            flex-direction: column; } }
+        .wrapper .header .header__content .header__buttons button {
+          padding: 20px;
+          transition: 0.5s all ease;
+          margin: 0 15px;
+          color: #70CBCE; }
+          .wrapper .header .header__content .header__buttons button:hover {
+            color: #fff;
+            background-color: #70CBCE; }
+          @media screen and (max-width: 768px) {
+            .wrapper .header .header__content .header__buttons button {
+              width: 50%; } }
+          @media screen and (max-width: 500px) {
+            .wrapper .header .header__content .header__buttons button {
+              width: 70%;
+              margin-bottom: 30px; } }
+  .wrapper .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; }
+    .wrapper .phone .phone__title {
+      padding: 70px 120px;
+      background: url(/build/imegs/03.jfif) no-repeat center;
+      background-attachment: fixed;
+      background-size: cover;
+      min-width: 100%;
+      height: 750px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; }
+      @media screen and (max-width: 500px) {
+        .wrapper .phone .phone__title {
+          height: fit-content; } }
+      .wrapper .phone .phone__title h2 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 49px;
+        display: flex;
+        text-align: center;
+        margin: 0 0 30px 0; }
+        @media screen and (max-width: 500px) {
+          .wrapper .phone .phone__title h2 {
+            width: 100%; } }
+      .wrapper .phone .phone__title p {
+        width: 50%;
+        font-size: 21px;
+        line-height: 26px;
+        text-align: center; }
+        @media screen and (max-width: 500px) {
+          .wrapper .phone .phone__title p {
+            width: 100%; } }
+    .wrapper .phone .phone__img {
+      transform: translateY(-300px); }
+      @media screen and (max-width: 500px) {
+        .wrapper .phone .phone__img {
+          display: none; } }
+      .wrapper .phone .phone__img img {
+        max-width: 100%; }
+    .wrapper .phone .phone__items {
+      margin: -250px 0 100px 0;
+      padding: 70px 120px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      @media screen and (max-width: 768px) {
+        .wrapper .phone .phone__items {
+          padding: 30px 40px;
+          flex-direction: column;
+          justify-content: flex-start; } }
+      @media screen and (max-width: 500px) {
+        .wrapper .phone .phone__items {
+          margin: 20px 0 50px 0; } }
+      .wrapper .phone .phone__items .phone__item {
+        padding: 15px;
+        margin: 0 15px;
+        flex: 0 1 33.3333%;
+        border-top: 4px solid #70CBCE; }
+        @media screen and (max-width: 768px) {
+          .wrapper .phone .phone__items .phone__item {
+            margin-top: 20px; } }
+        @media screen and (max-width: 500px) {
+          .wrapper .phone .phone__items .phone__item {
+            width: 100%; } }
+        .wrapper .phone .phone__items .phone__item h2 {
+          color: #231F20;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 30px; }
+        .wrapper .phone .phone__items .phone__item p {
+          padding: 15px 0 0 0;
+          color: #231F20;
+          font-family: "Raleway";
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 22px;
+          color: #929496; }
+        .wrapper .phone .phone__items .phone__item:first-child {
+          border-top: 4px solid #6D3F96; }
+        .wrapper .phone .phone__items .phone__item:last-child {
+          border-top: 4px solid #FDC05D; }
+  .wrapper .price {
+    padding: 120px 70px;
+    min-width: 100%;
+    background-color: #70CBCE; }
+    @media screen and (max-width: 768px) {
+      .wrapper .price {
+        padding: 30px 40px; } }
+    .wrapper .price .price__title {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 0 60px 0; }
+      .wrapper .price .price__title h2 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 49px;
+        display: flex;
+        align-items: center;
+        text-align: center; }
+      .wrapper .price .price__title p {
+        width: 50%;
+        margin: 30px 0 0 0;
+        font-size: 21px;
+        line-height: 26px;
+        text-align: center; }
+    .wrapper .price .price__items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      @media screen and (max-width: 768px) {
+        .wrapper .price .price__items {
+          width: 100%;
+          flex-direction: column;
+          justify-content: flex-start; } }
+      .wrapper .price .price__items .price__item {
+        border-radius: 10px 10px 0 0;
+        overflow: hidden;
+        flex: 0 1 33.3333%;
+        margin: 0 15px;
+        transition: 0.5s all ease;
+        background-color: #000; }
+        @media screen and (max-width: 768px) {
+          .wrapper .price .price__items .price__item {
+            margin-top: 50px;
+            width: 70%; } }
+        @media screen and (max-width: 500px) {
+          .wrapper .price .price__items .price__item {
+            width: 100%; } }
+        .wrapper .price .price__items .price__item:hover {
+          transform: scale(1.1); }
+        .wrapper .price .price__items .price__item .price__name {
+          background-color: #231F20; }
+          .wrapper .price .price__items .price__item .price__name p {
+            padding: 20px;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center; }
+        .wrapper .price .price__items .price__item .price__cost {
+          background-color: #292929;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          transition: 0.5s all ease; }
+          .wrapper .price .price__items .price__item .price__cost span {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 43px;
+            text-align: center; }
+            .wrapper .price .price__items .price__item .price__cost span:last-child {
+              color: #929496;
+              font-weight: 400; }
+        .wrapper .price .price__items .price__item .price_description {
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start; }
+          .wrapper .price .price__items .price__item .price_description p {
+            border-bottom: 1px dashed #E8EAEA;
+            width: 100%;
+            padding: 15px 10px;
+            color: #000;
+            font-family: "Raleway", sans-serif;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 22px;
+            text-align: center; }
+            .wrapper .price .price__items .price__item .price_description p:first-child {
+              color: #929496;
+              font-weight: 400; }
+          .wrapper .price .price__items .price__item .price_description button {
+            width: 100%;
+            background-color: #dadada;
+            color: #70CBCE;
+            padding: 15px 10px;
+            font-family: "Raleway", sans-serif;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 22px;
+            text-align: center;
+            transition: 0.5s all ease; }
+            .wrapper .price .price__items .price__item .price_description button:hover {
+              background-color: #c5c5c5; }
+  .wrapper .footer {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 200px 0;
+    background-color: #F2F2F2; }
+    @media screen and (max-width: 768px) {
+      .wrapper .footer {
+        padding: 30px 40px; } }
+    .wrapper .footer .footer__img {
+      padding: 30px;
+      margin: 0 0 30px 0;
+      border-radius: 50%;
+      border: 3px solid #70CBCE; }
+      .wrapper .footer .footer__img img {
+        min-width: 100%; }
+    .wrapper .footer .footer__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .wrapper .footer .footer__title h2 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 49px;
+        display: flex;
+        text-align: center;
+        color: #231F20; }
+      .wrapper .footer .footer__title p {
+        width: 50%;
+        margin: 30px 0 0 0;
+        font-size: 21px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #231F20; }
+    .wrapper .footer form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin: 60px 0 0 0; }
+      .wrapper .footer form input {
+        width: 30%;
+        margin: 0 0 30px 0;
+        padding: 10px 15px;
+        color: #000;
+        transition: 1s all ease; }
+        @media screen and (max-width: 768px) {
+          .wrapper .footer form input {
+            width: 60%; } }
+        @media screen and (max-width: 500px) {
+          .wrapper .footer form input {
+            width: 90%; } }
+        .wrapper .footer form input:focus {
+          box-shadow: 0px 10px 20px #b6b6b6; }
+      .wrapper .footer form button {
+        padding: 20px;
+        background-color: #70CBCE;
+        transition: 1s all ease; }
+        .wrapper .footer form button:hover {
+          color: #70CBCE;
+          background-color: #fff; }
+        @media screen and (max-width: 768px) {
+          .wrapper .footer form button {
+            width: 30%; } }
+        @media screen and (max-width: 500px) {
+          .wrapper .footer form button {
+            width: 70%; } }
+  .wrapper .social {
+    min-width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media screen and (max-width: 768px) {
+      .wrapper .social {
+        padding: 40px 30px;
+        flex-direction: column;
+        justify-content: center; } }
+    @media screen and (max-width: 768px) {
+      .wrapper .social .social__text {
+        margin-bottom: 30px; } }
+    .wrapper .social .social__text p {
+      font-size: 21px;
+      line-height: 26px;
+      color: #929496; }
+    .wrapper .social .social__imges {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .wrapper .social .social__imges .social__img {
+        margin: 0 10px; }
+
+.after::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  border: 3px solid #fff;
+  transition: 0.5s all;
+  background-color: rgba(255, 255, 255, 0.3); }
+
+.before::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.5s all; }
+
+.before2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.5s all; }
+
+/*# sourceMappingURL=style.css.map */

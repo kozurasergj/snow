@@ -8,7 +8,6 @@ const Carousel = () => (
     <Swiper
       spaceBetween={1}
       slidesPerView={1}
-      modules={[Navigator]}
       direction="horizontal"
       centeredSlides={true}
       className={styles.slider}

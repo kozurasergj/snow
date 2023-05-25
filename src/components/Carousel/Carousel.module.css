@@ -1,5 +1,5 @@
 .carousel{
-  background-image:url("public/slide1.jpg");
+  background-image:url("/slide1.jpg");
   padding:20px;
 }
 

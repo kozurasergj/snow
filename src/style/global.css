@@ -13,6 +13,7 @@ a {
     line-height: 1.2;
 }
 button {
+    cursor:pointer;
     border: none;
     outline: none;
 }

@@ -3,7 +3,7 @@ const Header = () => (
     <section className="header">
       <div className="header__main">
         <div className="header__logo">
-          <img src="public/04.svg" alt="#" />
+          <img src="/04.svg" alt="#" />
         </div>
         <div className="header__menu">
           <a href="#">Pricing</a>

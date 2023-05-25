@@ -6,13 +6,13 @@ const Footer = () => (
       </div>
       <div className="social__images">
         <a href="#" className="social__img">
-          <img src="public/06.svg" alt="" />
+          <img src="/06.svg" alt="" />
         </a>
         <a href="#" className="social__img">
-          <img src="public/07.svg" alt="" />
+          <img src="/07.svg" alt="" />
         </a>
         <a href="#" className="social__img">
-          <img src="public/08.svg" alt="" />
+          <img src="/08.svg" alt="" />
         </a>
       </div>
     </section>

@@ -6,7 +6,7 @@ const Phone = () => (
         <p>Lorem ipsum dolor sit amet, consectetur adipis. Lorem ipsum dolor sit amet, consectetur adipiscing elit sit dol mi arlna.</p>
       </div>
       <div className="phone__img">
-        <img src="public/02.png" alt="" />
+        <img src="/02.png" alt="" />
       </div>
       <div className="phone__items">
         <div className="phone__item">

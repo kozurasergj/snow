@@ -1,0 +1,47 @@
+.carousel{
+  background-image:url("public/slide1.jpg");
+  padding:20px;
+}
+
+:global(.swiper).slider {
+  text-align: center;
+}
+
+.image {
+  border-radius: 15px;
+  max-width: 200px;
+}
+
+
+.prev,
+.next {
+  display: inline-flex;
+  width: fit-content;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #353432;
+  border-radius: 50%;
+}
+.prev img,
+.next img {
+  width:100%;
+  height:100%;
+}
+
+.prev img,
+.next img {
+  display: block;
+}
+
+.prev:hover,
+.next:hover,
+.prev:focus,
+.next:focus {
+  border-color: #6e00a1;
+}
+
+.prev img {
+  transform: rotate(180deg);
+}
